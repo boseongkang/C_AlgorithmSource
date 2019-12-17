@@ -7,14 +7,14 @@ int main() {
 	quot = (int)(d / 2);
 	do {
 		remain = d - quot * 2;
-		printf("³ª¸ÓÁö %d,¸ò %d \n", remain, quot);
+		printf("remainder: %d,quotient: %d \n", remain, quot);
 		s++;
 		b[s] = remain;
 		d = quot;
 		quot = (int)(d / 2);
 	} while (quot != 0);
 	remain = d - quot * 2;
-	printf("³ª¸ÓÁö %d, ¸ò %d /\n\n", remain, quot);
+	printf("remainder: %d, quotient: %d \n", remain, quot);
 	s++;
 	b[s] = remain;
 
