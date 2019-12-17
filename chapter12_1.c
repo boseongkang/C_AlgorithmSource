@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 int main() {
-	int b[10], s = 0, d, quot = 0, remain ;
+	int b[10], s = 0, d, quot = 0, remain;
 
 	scanf_s("%d", &d);
-	quot = (int)(d/2);
+	quot = (int)(d / 2);
 	do {
-		remain = d - quot*2;
+		remain = d - quot * 2;
 		printf("³ª¸ÓÁö %d,¸ò %d \n", remain, quot);
 		s++;
 		b[s] = remain;
@@ -18,7 +18,7 @@ int main() {
 	s++;
 	b[s] = remain;
 
-	for (int i = s; i>0; i--) {
+	for (int i = s; i > 0; i--) {
 		printf("%d ", b[i]);
 		puts("");
 	}
