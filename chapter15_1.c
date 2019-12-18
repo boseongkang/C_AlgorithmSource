@@ -13,7 +13,7 @@ int main() {
 			}
 		}
 	}
-	puts(" 점수 석차 ");
+	puts(" score grade ");
 	for (i = 0; i < 5; i++) {
 		printf(" %d\t%d\n", score[i], grade[i]);
 	}
