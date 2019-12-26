@@ -5,18 +5,19 @@ int main() {
 	for (i = 0; i < 5; i++) {
 		for (j = 0; j < 5; j++) {
 			k++;
-			a[i][j]=k;
+			a[i][j] = k;
 		}
 	}
 	for (i = 0; i < 5; i++) {
 		for (j = 0; j < 5; j++) {
-			if (a[i][j] < 10) {
+			if (a[i][j] < 10)
 				printf(" %d ", a[i][j]);
-			}
-			else {
-				printf("%d", a[i][j]);
-			}
-			puts("");
+
+			else
+				printf("%d ", a[i][j]);
+
 		}
+		puts("");
+
 	}
 }
