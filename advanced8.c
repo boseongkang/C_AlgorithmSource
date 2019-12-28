@@ -15,5 +15,5 @@ int main() {
 			printf("%d ", c);
 		}
 	}
-	printf("%ÀÇ ÇÕ : %d\n", sum);
+	printf("result : %d\n",sum);
 }
