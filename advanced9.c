@@ -14,6 +14,6 @@ int main() {
 		}
 		h++;
 	} while (h < 11);
-	printf("礎熱曖 偎熱 : %d, �汝鶺� 偎熱 : %d\n", even, odd);
+	printf("number of evenNum : %d, number of oddNum : %d\n", even, odd);
 
 }
